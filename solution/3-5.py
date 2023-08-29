@@ -1,3 +1,4 @@
+# 1이 될때까지
 n, k = map(int, input().split())
 result = 0
 
