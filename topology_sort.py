@@ -14,7 +14,7 @@ for _ in range(e):
     graph[a].append(b) # 정점 A에서 B로 이동 가능
     # 정점 A에서 B로 이동이 가능하다는 것은 B에 대해서 들어오는 간선이 존재한다는 의미임
     indegree[b] += 1
-print(indegree)
+
 # 위상 정렬 함수
 def topology_sort():
     result = [] # 알고리즘 수행 결과를 담을 리스트
